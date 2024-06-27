@@ -82,3 +82,5 @@ Feel free to explore and integrate this API into your applications to generate u
 # Backup Downloads
 
 **Zip(.zip)**: [![Download Random Username API](https://lelbois.nekoweb.org/download.svg)](https://github.com/randomusernameapi/randomusernameapi.github.io/raw/main/random-username-api.zip)
+
+Tarball(.tar.gz): [![Download Random Username API](https://lelbois.nekoweb.org/download.svg)]([ ](https://github.com/randomusernameapi/randomusernameapi.github.io/raw/main/archive.tar.gz))
