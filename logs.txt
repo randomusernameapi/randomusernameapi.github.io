@@ -1,0 +1,195 @@
+[===========] Ready
+┌────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                │
+│ ▄▄    ▄▄            ▄▄▄▄      ▄▄▄▄                                    ▄▄       │
+│ ██    ██            ▀▀██      ▀▀██                            ██      ██       │
+│ ██    ██   ▄████▄     ██        ██       ▄████▄             ███████   ██▄████▄ │
+│ ████████  ██▄▄▄▄██    ██        ██      ██▀  ▀██              ██      ██▀   ██ │
+│ ██    ██  ██▀▀▀▀▀▀    ██        ██      ██    ██              ██      ██    ██ │
+│ ██    ██  ▀██▄▄▄▄█    ██▄▄▄     ██▄▄▄   ▀██▄▄██▀              ██▄▄▄   ██    ██ │
+│ ▀▀    ▀▀    ▀▀▀▀▀      ▀▀▀▀      ▀▀▀▀     ▀▀▀▀                 ▀▀▀▀   ▀▀    ▀▀ │
+│                                                                                │
+│                                                                                │
+│                                                                                │
+│                                  ▄▄                                            │
+│                                  ██                                            │
+│  ▄████▄    ██▄████   ▄████▄      ██                                            │
+│ ██▄▄▄▄██   ██▀      ██▄▄▄▄██     ██                                            │
+│ ██▀▀▀▀▀▀   ██       ██▀▀▀▀▀▀     ▀▀                                            │
+│ ▀██▄▄▄▄█   ██       ▀██▄▄▄▄█     ▄▄                                            │
+│   ▀▀▀▀▀    ▀▀         ▀▀▀▀▀      ▀▀                                            │
+│                                                                                │
+│                                                                                │
+└────────────────────────────────────────────────────────────────────────────────┘
+The king stood by the pillar, and made a covenant before Yahweh, to walk after Yahweh, and to keep his commandments, his testimonies, and his statutes, with all his heart, and all his soul, to confirm the words of this covenant that were written in this book; and all the people agreed to the covenant.
+Reference: 2 Kings 23:3
+        _,met$$$$$gg.                                                           
+     ,g$$$$$$$$$$$$$$$P.                                                        
+   ,g$$P""       """Y$$.".                                                      
+  ,$$P'              `$$$.                                                      
+',$$P       ,ggs.     `$$b:                                                     
+`d$$'     ,$P"'   .    $$$                               ,#.                    
+ $$P      d$'     ,    $$P      ##:          :##        :###:                   
+ $$:      $$.   -    ,d$$'      ##'          `##         `#'                    
+ $$;      Y$b._   _,d$P'    __  ##     __     ##  __      _     __          _   
+ Y$$.    `.`"Y$$$$P"'     ,####:##  ,######.  ##.#####. :### ,######. ###.####: 
+ `$$b      "-.__         ,##' `###  ##:  :##  ###' `###  ##' #:   `## `###' `##:
+  `Y$$b                  ##    `##  ##    ##  ##'   `##  ##    ___,##  ##:   `##
+   `Y$$.                 ##     ##  #######:  ##     ##  ##  .#######  ##'    ##
+     `$$b.               ##     ##  ##'       ##     ##  ##  ##'  `##  ##     ##
+       `Y$$b.            ##.   ,##  ##        ##    ,##  ##  ##    ##  ##     ##
+         `"Y$b._         :#:._,###  ##:__,##  ##:__,##' ,##. ##.__:##. ##     ##
+             `""""       `:#### ###  ######'  `######'  #### `#####"## ##     ##
+
+Linux Version 6.6.25-01713-g2f237acc8e50, Compiled #1 SMP PREEMPT_DYNAMIC Fri, 19 Apr 2024 
+      Four 1.09GHz Intel Atom Goldmont+ Processors, 2.7GB RAM, 9k Bogomips
+                                    penguin
+
+koshlandjg105@penguin:~$ mkdir random-username-api
+cd random-username-api
+npm init -y
+npm install express
+Wrote to /home/koshlandjg105/random-username-api/package.json:
+
+{
+  "name": "random-username-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+added 64 packages, and audited 65 packages in 5s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+koshlandjg105@penguin:~/random-username-api$ nano app.js
+koshlandjg105@penguin:~/random-username-api$ node app.js
+Server running at http://localhost:3000
+^C^C^F
+koshlandjg105@penguin:~/random-username-api$ npm install cors
+
+added 2 packages, and audited 67 packages in 2s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+koshlandjg105@penguin:~/random-username-api$ nano app.js
+koshlandjg105@penguin:~/random-username-api$ node app.js
+Server running at http://localhost:3000
+^C
+koshlandjg105@penguin:~/random-username-api$ nano vercel.json
+koshlandjg105@penguin:~/random-username-api$ vercel
+(node:1483) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1483) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+Vercel CLI 34.2.7
+? Set up and deploy “~/random-username-api”? yes
+? Which scope do you want to deploy to? 433vfd's projects
+? Link to existing project? yes
+? What’s the name of your existing project? usernameapiv1
+🔗  Linked to 433vfds-projects/usernameapiv1 (created .vercel and added it to .gitignore)
+🔍  Inspect: https://vercel.com/433vfds-projects/usernameapiv1/BGhCrXKAcGw6Q2QU3t6m7U2tgHUa [2s]
+✅  Preview: https://usernameapiv1-2pa18s4pr-433vfds-projects.vercel.app [2s]
+📝  To deploy to production (usernameapiv1.vercel.app), run `vercel --prod`
+❗️  Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+koshlandjg105@penguin:~/random-username-api$ ^[[200~vercel --prod^[[201~
+vercel --prod
+(node:1516) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1516) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+Vercel CLI 34.2.7
+🔍  Inspect: https://vercel.com/433vfds-projects/usernameapiv1/3bWzL8m5v93DNpE8mfoM2GV3hgci [1s]
+✅  Production: https://usernameapiv1-lhljljoh5-433vfds-projects.vercel.app [1s]
+❗️  Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+╭──────────────────────────────────────────────────────────╮
+│                                                          │
+│           Update available! v34.2.7 ≫ v34.2.8            │
+│   Changelog: https://github.com/vercel/vercel/releases   │
+│         Run `npm i -g vercel@latest` to update.          │
+│                                                          │
+╰──────────────────────────────────────────────────────────╯
+
+koshlandjg105@penguin:~/random-username-api$ npm i -g vercel@latest
+npm error code EACCES
+npm error syscall rename
+npm error path /usr/local/lib/node_modules/vercel
+npm error dest /usr/local/lib/node_modules/.vercel-zV6dtPI9
+npm error errno -13
+npm error Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/vercel' -> '/usr/local/lib/node_modules/.vercel-zV6dtPI9'
+npm error     at async Object.rename (node:internal/fs/promises:787:10)
+npm error     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+npm error     at async Promise.allSettled (index 0)
+npm error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+npm error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+npm error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+npm error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+npm error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+npm error   errno: -13,
+npm error   code: 'EACCES',
+npm error   syscall: 'rename',
+npm error   path: '/usr/local/lib/node_modules/vercel',
+npm error   dest: '/usr/local/lib/node_modules/.vercel-zV6dtPI9'
+npm error }
+npm error
+npm error The operation was rejected by your operating system.
+npm error It is likely you do not have the permissions to access this file as the current user
+npm error
+npm error If you believe this might be a permissions issue, please double-check the
+npm error permissions of the file and its containing directories, or try running
+npm error the command again as root/Administrator.
+npm error A complete log of this run can be found in: /home/koshlandjg105/.npm/_logs/2024-06-27T18_17_58_510Z-debug-0.log
+koshlandjg105@penguin:~/random-username-api$ sudo npm i -g vercel@latest
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+npm warn deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+changed 247 packages in 29s
+
+17 packages are looking for funding
+  run `npm fund` for details
+koshlandjg105@penguin:~/random-username-api$ script console_logs.txt
+Script started, output log file is 'console_logs.txt'.
+bash: ./term.sh: No such file or directory
+bash: ./verse.sh: No such file or directory
+        _,met$$$$$gg.                                                           
+     ,g$$$$$$$$$$$$$$$P.                                                        
+   ,g$$P""       """Y$$.".                                                      
+  ,$$P'              `$$$.                                                      
+',$$P       ,ggs.     `$$b:                                                     
+`d$$'     ,$P"'   .    $$$                               ,#.                    
+ $$P      d$'     ,    $$P      ##:          :##        :###:                   
+ $$:      $$.   -    ,d$$'      ##'          `##         `#'                    
+ $$;      Y$b._   _,d$P'    __  ##     __     ##  __      _     __          _   
+ Y$$.    `.`"Y$$$$P"'     ,####:##  ,######.  ##.#####. :### ,######. ###.####: 
+ `$$b      "-.__         ,##' `###  ##:  :##  ###' `###  ##' #:   `## `###' `##:
+  `Y$$b                  ##    `##  ##    ##  ##'   `##  ##    ___,##  ##:   `##
+   `Y$$.                 ##     ##  #######:  ##     ##  ##  .#######  ##'    ##
+     `$$b.               ##     ##  ##'       ##     ##  ##  ##'  `##  ##     ##
+       `Y$$b.            ##.   ,##  ##        ##    ,##  ##  ##    ##  ##     ##
+         `"Y$b._         :#:._,###  ##:__,##  ##:__,##' ,##. ##.__:##. ##     ##
+             `""""       `:#### ###  ######'  `######'  #### `#####"## ##     ##
+
+Linux Version 6.6.25-01713-g2f237acc8e50, Compiled #1 SMP PREEMPT_DYNAMIC Fri, 19 Apr 2024 
+      Four 1.09GHz Intel Atom Goldmont+ Processors, 2.7GB RAM, 9k Bogomips
+                                    penguin
+
+koshlandjg105@penguin:~/random-username-api$ history > session_history.txt
+koshlandjg105@penguin:~/random-username-api$ curl -X GET https://usernameapiv1.vercel.app/api/random-usernames?count=5
+{"usernames":["GhostlyJourney2040","StardustAdventure_","BalletVortex2048","SerenitySymphony_","EchoRed_"]}koshlandjg105@penguin:~/random-username-api$ 
