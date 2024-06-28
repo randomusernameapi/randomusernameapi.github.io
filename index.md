@@ -1,6 +1,8 @@
-[![view on github](https://lelbois.nekoweb.org/viewongithub.svg)](https://github.com/randomusernameapi/randomusernameapi.github.io/)
 
 # Random Username Generator API
+
+[![view on github](https://lelbois.nekoweb.org/viewongithub.svg)](https://github.com/randomusernameapi/randomusernameapi.github.io/)
+
 
 Welcome to the Random Username Generator API, your go-to tool for generating unique and creative usernames effortlessly!
 
