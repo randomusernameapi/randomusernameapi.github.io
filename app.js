@@ -33,9 +33,7 @@ function getRandomInt(min, max) {
 }
 
 // Function to generate a random username
-function generateUsername() {
-    const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-    const suffix = suffixes[Math.floor(Math.random() * suffixes.length)];
+function generateUsername(prefix, suffix) {
     let ending = "";
 
     // Randomly select an ending: "2048", a random number between 2024 and 2048, or an underscore
@@ -50,10 +48,16 @@ function generateUsername() {
 // Endpoint to generate a specified number of random usernames
 app.get('/api/random-usernames', cors(), (req, res) => {
     const count = parseInt(req.query.count) || 1; // Default to 1 if count is not provided or invalid
+    const customPrefix = req.query.prefix; // Get custom prefix from query
+    const customSuffix = req.query.suffix; // Get custom suffix from query
+    
     const usernames = [];
     
     for (let i = 0; i < count; i++) {
-        usernames.push(generateUsername());
+        const prefix = customPrefix && prefixes.includes(customPrefix) ? customPrefix : prefixes[Math.floor(Math.random() * prefixes.length)];
+        const suffix = customSuffix && suffixes.includes(customSuffix) ? customSuffix : suffixes[Math.floor(Math.random() * suffixes.length)];
+        
+        usernames.push(generateUsername(prefix, suffix));
     }
 
     res.json({ usernames });
@@ -66,4 +70,3 @@ app.use(cors());
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
-
